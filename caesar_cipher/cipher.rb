@@ -1,5 +1,6 @@
 require 'sinatra'
-require 'sinatra/reloader'
+#require 'sinatra/reloader'
+
 
 def caesar_cipher(message,displacement)
   text = message.to_s
