@@ -1,0 +1,15 @@
+<html>
+  <head></head>
+  <body>
+    <form>
+      Enter the text to encode:<br>
+      <input type='text' name='text' /><br>
+      Enter the number of letters to shift:<br>
+      <input type='text' name='shift' /><br>
+      <input type='submit' name='Code!' />
+    </form>
+    <p>
+      Your message:<br><%= params['text'] %><br>has been changed to:<br><%= coded_message %>
+    </p>
+  </body>
+</html>
